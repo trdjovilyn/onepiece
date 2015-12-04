@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>OP Home</title>
+	<title></title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/styles.css" />
@@ -12,18 +11,25 @@
 	<script src="assets/js/op.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 </head>
-<body id="home">
-	<div class="container wrapper">
-		<div class="container col-sm-12 frontLogo">
-			<img class="frontlogoimg" src="assets/images/op-logo.png" alt="logo" height="300" width="800" />
-		</div>
-		<div class="dummy_container"></div>
-		<div class="main_content">
-			<a href="overview.html"><p class="explore">EXPLORE</p></a>
-			<p class="adventure">ADVENTURE</p>
-			<p class="friendship">FRIENDSHIP</p>
-		</div>	
-	</div>
-
+<body id="explore">
+	<header class="outer_header"></header>
+	<header class="ovw_header container">
+		<a href="index.php"><img class="logo" src="assets/images/op-logo.png" alt="logo" height="100" width="300" /></a>
+		<font>OVERVIEW</font>
+	</header>
+	<nav class="container ovw_menu">
+		<ul>
+			<li class="ovw_menulist_history"><a href="history" >History</a></li>
+			<li class="ovw_menulist_world"><a href="world" >World</a></li>
+			<li class="ovw_menulist_plot"><a href="plot" >Plot</a></li>
+		</ul>
+	</nav>
+	<section class="wrapper container">
+	
+	</section>
+	<footer class="footer container">
+		<a href="index.html"><img class="footer_logo" src="assets/images/op-logo.png" alt="logo" height="100" width="300" /></a>
+		<p>Copyright: 2015 *** Jovilyn Abella</p>
+	</footer>
 </body>
 </html>

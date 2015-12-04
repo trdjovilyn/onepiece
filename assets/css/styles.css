@@ -56,36 +56,11 @@ nav {
     margin: 15px 0 0 0;
 }
 
-/*.menu li {
-	font-size: 20px;
-    font-family: sans-serif;
-    border-right: 1px solid black;
-}
-.menu li:hover {
-	font-size: 29px;
-	text-decoration: none;
-    color: black;
-    outline: none;
-}*/
-
  a:active , a:visited, a:-webkit-any-link {
 	text-decoration: none;
     color: black;
     outline: none;
 }
-
-/*.menulist_01 {	
-    padding: 0px 18px 0px 0;
-}
-
-.menulist_02 {
-    padding: 0px 18px 0px 18px;
-}
-
-.menulist_03 {
-	padding: 0 0 0 18px;
-	border-right: none!important;
-}*/
 
 .dummy_container {
     border-top: 4px solid #BD9150;
@@ -167,7 +142,7 @@ p {
 }
 
 
-/* overview */
+/* index */
 .logo {
     height: auto;
     width: 30%;
@@ -266,9 +241,30 @@ tr[class*="d"] td img{
     width: 73%;
 }
 
+.wrapper .ovw_details .w_devil img,
+.wrapper .ovw_details .w_haki img,
+.wrapper .ovw_details .w_den img,
 .wrapper .ovw_details .w_beings img {
     width: 100%;
 }
+
+.ovm_world{
+    padding: 85px 0;
+}
+
+.fst_line, .snd_line {
+    text-align: center;
+}
+
+.fst_line div h3, .snd_line div h3 {
+    text-align: left;
+    margin: 33px 0 16px;
+}
+
+.snd_line {
+    margin: 95px 0 0;
+}
+
 
 
 /* footer */
