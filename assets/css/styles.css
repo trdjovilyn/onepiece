@@ -1,0 +1,295 @@
+/* styling */
+
+.container {
+    width: 100%;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* home page */
+#home {
+    background-color: aliceblue;
+    margin: 0 0 0 0;
+    background: url("../images/bg_1.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.outer_header {
+    opacity: 0.7;
+    height: 3px;
+    background: aliceblue;
+    box-shadow: 0 9px 6px #BEE1E8;
+}
+
+.inner_header {
+    position: absolute;
+    margin: -63px 0 0 0;
+    width: 100%;
+    height: 51px;
+}
+
+nav {
+	padding: 0 26px 12px 26px;
+}
+
+.frontLogo {
+    text-align: center;
+    margin: 82px 0 0;
+}
+.frontlogoimg {
+    position: relative;
+    width: 46%;
+    height: auto;
+}
+
+.menu {
+	list-style: none;
+    display: inline-flex;
+    padding: 0 0 0 0;
+    float: right;
+    margin: 15px 0 0 0;
+}
+
+/*.menu li {
+	font-size: 20px;
+    font-family: sans-serif;
+    border-right: 1px solid black;
+}
+.menu li:hover {
+	font-size: 29px;
+	text-decoration: none;
+    color: black;
+    outline: none;
+}*/
+
+ a:active , a:visited, a:-webkit-any-link {
+	text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+/*.menulist_01 {	
+    padding: 0px 18px 0px 0;
+}
+
+.menulist_02 {
+    padding: 0px 18px 0px 18px;
+}
+
+.menulist_03 {
+	padding: 0 0 0 18px;
+	border-right: none!important;
+}*/
+
+.dummy_container {
+    border-top: 4px solid #BD9150;
+    border-bottom: 4px solid #BD9150;
+    box-shadow: 0 15px 106px #442C0A;
+    width: 50%;
+    height: 251px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    opacity: 0.5;
+}
+
+.main_content {
+   	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -240px;
+    position: relative;
+}
+
+.explore {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 0 0;
+    padding: 16px;
+}
+
+.adventure {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 0 0;
+    padding: 16px;
+}
+
+.friendship {
+	text-align: center;
+    font-size: 2em;
+ 	margin: 0 0 0 0;
+    padding: 16px;
+}
+.explore:hover {
+	font-size: 3em;
+}
+
+.adventure:hover {
+	font-size: 3em;
+}
+
+.friendship:hover {
+	font-size: 3em;
+}
+
+.sh-flag {
+ 	margin: 0 0 0 40px;
+}
+
+.sh-title {
+ 	text-align: center;
+}
+
+.nav > img {
+ 	width: 331px;
+    margin: 22px 0px 42px 23px;
+}
+
+p {
+ 	text-align: justify;
+}
+
+.testtemplate {
+ 	border: 1px solid green;
+ 	height: 100px;
+}
+
+.testtemplate2 {
+ 	border: 1px solid green;
+ 	height: 300px;
+}
+
+
+/* overview */
+.logo {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    top: 36px;
+    opacity: 0.4;
+}
+
+.ovw_header {
+    font-size: 4em;
+    padding: 130px 0 0;
+    width: 100%;
+    background-color: rgba(5, 5, 62, 0.99);
+    color: #E0F7EE;
+}
+
+.ovw_header font {
+    float: right;
+    margin-right: 30px;
+}
+
+.ovw_menu {
+    width: 100%;
+    border-top: 5px solid rgba(236, 218, 183, 0.96); 
+    padding: 0;
+}
+
+.ovw_menu ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: 63%;
+    text-align: center;
+    margin-bottom: 0;
+    float: right;
+}
+
+.ovw_menu ul li[class*="ovw_menulist"] {
+    width: 145px;
+    padding: 11px 0 11px;
+    border: 5px solid rgba(236, 218, 183, 0.96);
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 2em;
+    background-color: #A52A2A;
+
+}
+.ovw_menu ul li[class*="ovw_menulist"] a {
+    color:#F5F5DC;
+}
+.ovw_menulist_plot {
+    border-right: 5px solid rgba(236, 218, 183, 0.96)!important;
+}
+.op_intro {
+    width: 43%;
+    height: auto;
+    margin-left: 27%;
+    margin-top: 138px;
+    margin-bottom: 50px;
+    border: 23px solid #302D29;
+}
+.table01 tr td {
+    border-bottom: 2px dashed #7A9599;
+}
+
+.table01 .ovw_d_luffy {
+    border-bottom: none!important;
+}
+blockquote[class*="o"] {
+    text-align: justify;
+}
+
+tr[class*="d"] {
+    text-align: center;
+}
+tr[class*="d"] td img{
+    width: 80%;
+    margin: 54px 0 54px;
+}
+
+.o_two {
+    border-left: none;
+    border-right: 5px solid #eee;
+}
+
+.hist_pic {width: 300px;
+    height: 300px;
+    border-radius: 50% 50% 50% 50%;  
+    -webkit-border-radius: 50% 50% 50% 50%;  
+    -moz-border-radius: 50% 50% 50% 50%;  
+}
+
+/* world page */
+.ovw_details div[class*="w"] img {
+    width: 73%;
+}
+
+.wrapper .ovw_details .w_beings img {
+    width: 100%;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    margin: 107px 0 0;
+    width: 100%!important;
+    background-color: black;
+    padding: 25px;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.footer_logo {
+    width: 115px;
+    height: auto;
+}
+
+
+
+
